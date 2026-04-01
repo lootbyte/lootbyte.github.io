@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#home">Michael | Lootbyte</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page" id="home">
+    <section class="hero reveal">
+      <p class="eyebrow">Cybersecurity Portfolio</p>
+      <h1>Cybersecurity Student | Blue Team Focus</h1>
+      <p class="intro">
+        I'm building hands-on skills in networking, Linux, and security analysis, with
+        a focus on understanding how systems are monitored and protected.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#projects">View Projects</a>
+        <a class="button secondary" href="https://github.com/lootbyte" target="_blank" rel="noreferrer">View My GitHub</a>
+        <button class="button secondary" id="greetButton" type="button">Professional Summary</button>
+      </div>
+      <p class="hero-note" id="message">Focused on practical learning, defensive security, and real-world cybersecurity foundations.</p>
+    </section>
+
+    <section class="section-card reveal" id="about">
+      <div class="section-heading">
+        <p class="section-label">About</p>
+        <h2>Aspiring Cybersecurity Professional</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a cybersecurity student building practical skills in networking,
+            Linux, and security analysis.
+          </p>
+        </div>
+        <div>
+          <p><strong>Foundation:</strong></p>
+          <ul class="project-details">
+            <li>IP addressing, subnets, NAT</li>
+            <li>TCP/UDP, ports, and protocols</li>
+            <li>HTTP vs HTTPS, TLS, and data flow across networks</li>
+          </ul>
+          <p><strong>Currently Developing:</strong></p>
+          <ul class="project-details">
+            <li>Linux command-line practice</li>
+            <li>Traffic analysis</li>
+            <li>Security-focused labs and projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card reveal" id="skills">
+      <div class="section-heading">
+        <p class="section-label">Skills</p>
+        <h2>Core Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <h3>Linux</h3>
+          <p>Comfortable working in Linux environments for navigation, troubleshooting, and basic security tasks.</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Networking Fundamentals</h3>
+          <p>Understanding core networking concepts including IP addressing, protocols, ports, and traffic flow.</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Python</h3>
+          <p>Using Python for beginner-friendly scripting, automation, and foundational problem solving.</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Wireshark</h3>
+          <p>Analyzing packet captures to observe network behavior and identify suspicious or unusual activity.</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Nmap</h3>
+          <p>Using basic scans to discover hosts, services, and exposure within lab environments.</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Security Fundamentals</h3>
+          <p>Building a strong foundation in defensive security concepts, system hardening, and threat awareness.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-card reveal" id="projects">
+      <div class="section-heading">
+        <p class="section-label">Projects</p>
+        <h2>Cybersecurity Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured-project reveal">
+          <h3>Splunk Log Analysis (Featured)</h3>
+          <p>
+            Reviewed authentication logs in Splunk to identify suspicious login
+            activity and understand how log patterns support security investigations.
+          </p>
+          <div class="project-case-study">
+            <p><strong>Tools:</strong></p>
+            <p>Splunk</p>
+
+            <p><strong>Skills:</strong></p>
+            <p>Log analysis, SPL queries, pattern identification</p>
+
+            <p><strong>Key Work:</strong></p>
+            <ul class="project-details">
+              <li>Searched authentication logs using SPL queries</li>
+              <li>Reviewed failed login attempts to identify suspicious patterns</li>
+            </ul>
+
+            <p><strong>Outcome:</strong></p>
+            <p>
+              Identified repeated failed logins that could indicate unauthorized access attempts.
+            </p>
+          </div>
+          <a class="project-link" href="https://github.com/lootbyte/splunk-login-analysis" target="_blank" rel="noreferrer">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-card reveal" id="learning">
+      <div class="section-heading">
+        <p class="section-label">Learning</p>
+        <h2>Certifications and Ongoing Study</h2>
+      </div>
+      <div class="learning-grid">
+        <article class="learning-card reveal">
+          <h3>TryHackMe</h3>
+          <p>Actively completing guided labs focused on blue team operations, log analysis, and threat detection.</p>
+        </article>
+        <article class="learning-card reveal">
+          <h3>Coursera</h3>
+          <p>Building foundational cybersecurity and networking knowledge through structured coursework.</p>
+        </article>
+        <article class="learning-card reveal">
+          <h3>Cisco NetAcad</h3>
+          <p>Completed Introduction to Cybersecurity certification and continuing to develop core security fundamentals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-card contact-card reveal" id="opportunities">
+      <div class="section-heading">
+        <p class="section-label">Goals</p>
+        <h2>What I'm Looking For</h2>
+      </div>
+      <ul class="project-details">
+        <li>SOC Analyst Internship</li>
+        <li>Entry-level Blue Team role</li>
+        <li>Opportunities to grow in cybersecurity</li>
+      </ul>
+    </section>
+
+    <section class="section-card contact-card reveal" id="contact">
+      <div class="section-heading">
+        <p class="section-label">Contact</p>
+        <h2>Connect With Me</h2>
+      </div>
+      <p>
+        I'm open to entry-level cybersecurity opportunities, internships, and
+        professional connections. Feel free to connect with me through any of the
+        platforms below.
+      </p>
+      <div class="contact-links">
+        <a class="button secondary icon-button" href="https://github.com/lootbyte" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12A11.5 11.5 0 0 0 8.36 22.7c.58.1.79-.25.79-.56v-1.95c-3.18.69-3.85-1.35-3.85-1.35-.52-1.31-1.27-1.66-1.27-1.66-1.04-.71.08-.69.08-.69 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.52-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.87 10.87 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.18 1.82 1.18 3.07 0 4.38-2.68 5.35-5.23 5.63.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+          </svg>
+        </a>
+        <a class="button secondary icon-button" href="https://linkedin.com/in/michael-o-20b006363" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M4.98 3.5A2.48 2.48 0 1 0 5 8.46a2.48 2.48 0 0 0-.02-4.96ZM3 9h4v12H3V9Zm7 0h3.83v1.64h.05c.53-1.01 1.84-2.08 3.79-2.08 4.05 0 4.8 2.66 4.8 6.12V21h-4v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.95V21h-4V9Z"/>
+          </svg>
+        </a>
+        <a class="button secondary icon-button" href="mailto:info@lootbyte.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.75 6.75h16.5v10.5H3.75z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="m4.5 7.5 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a class="button secondary icon-button" href="https://x.com/lootbytehq" target="_blank" rel="noreferrer" aria-label="X">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M18.9 2H22l-6.77 7.74L23.2 22h-6.27l-4.91-7.04L5.86 22H2.74l7.24-8.28L.8 2h6.36l4.43 6.35L18.9 2Zm-1.1 18h1.74L6.22 3.9H4.35L17.8 20Z"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer reveal">
+    <p>&copy; 2026 Michael | Lootbyte. Cybersecurity Portfolio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
